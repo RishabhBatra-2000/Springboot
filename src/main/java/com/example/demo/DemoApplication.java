@@ -16,6 +16,7 @@ public class DemoApplication {
 	}
 	@GetMapping
 	public List<String> hello() {
+		// returns a hello world in json format
 		return List.of("Hello","world");
 	}
 
